@@ -66,6 +66,7 @@ class Users extends Controller
 
                 // Register User
                 if ($this->userModel->register($data)) {
+                    flash('register_success', 'You are registered and can login');
                     redirerct('users/login');
                 } else {
                     die('Something Went Wrong');

@@ -1,4 +1,3 @@
-
 <?php require APPROOT .'/views/inc/header.php'; ?>
   <div class="row">
     <div class="col-md-6 mx-auto">
